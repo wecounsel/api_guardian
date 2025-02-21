@@ -1,3 +1,8 @@
+require 'logger'
+require 'active_support'
+require 'active_support/logger'
+require 'active_support/logger_silence'
+require 'active_support/logger_thread_safe_level'
 require 'active_job'
 require 'action_mailer'
 require 'pundit'
